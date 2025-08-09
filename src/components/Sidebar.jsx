@@ -28,7 +28,7 @@ const Sidebar = ({ activeView, onChangeView }) => {
               <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
                 <path d={iconPath} />
               </svg>
-              {label}
+              <span className="nav-label">{label}</span>
             </a>
           </li>
         ))}
